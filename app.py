@@ -1,11 +1,11 @@
-!pip install streamlit
-!pip install google.generativeai
-!pip install langchain_community
-!pip install langchain
-!pip install pypdf
-!pip install docarray
-!pip install chromadb
-!pip install google-cloud-aiplatform
+pip install streamlit
+pip install google.generativeai
+pip install langchain_community
+pip install langchain
+pip install pypdf
+pip install docarray
+pip install chromadb
+pip install google-cloud-aiplatform
 import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
